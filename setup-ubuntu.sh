@@ -10,6 +10,8 @@ brew install gcc helix ripgrep lazygit gitui zoxide eza yazi ffmpegthumbnailer u
 brew install ruby jesseduffield/lazydocker/lazydocker
 
 echo "Setting up Helix..."
+mkdir -p ~/.config/helix
+touch ~/.config/helix/languages.toml
 cat ~/.config/helix/languages.toml <<EOF
 [[language]]
 name = "go"
